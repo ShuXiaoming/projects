@@ -21,7 +21,6 @@
 		FB35499D1D646C4A00C88A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB35499B1D646C4A00C88A83 /* LaunchScreen.storyboard */; };
 		FB3549A81D646C4A00C88A83 /* QYDataManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3549A71D646C4A00C88A83 /* QYDataManagerTests.m */; };
 		FB3549B31D646C4A00C88A83 /* QYDataManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3549B21D646C4A00C88A83 /* QYDataManagerUITests.m */; };
-		FB60D70C1D7986A6001FD708 /* UIViewController+QYPPCommon1.m in Sources */ = {isa = PBXBuildFile; fileRef = FB60D70B1D7986A6001FD708 /* UIViewController+QYPPCommon1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +72,6 @@
 		FB3549B21D646C4A00C88A83 /* QYDataManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYDataManagerUITests.m; sourceTree = "<group>"; };
 		FB3549B41D646C4A00C88A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB60D7091D797B4A001FD708 /* QPDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPDataManager.h; sourceTree = "<group>"; };
-		FB60D70A1D7986A6001FD708 /* UIViewController+QYPPCommon1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QYPPCommon1.h"; sourceTree = "<group>"; };
-		FB60D70B1D7986A6001FD708 /* UIViewController+QYPPCommon1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+QYPPCommon1.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +131,6 @@
 				FB288F261D6683510046F2FF /* QPDataManager.m */,
 				FB288F281D66840D0046F2FF /* QPModel.h */,
 				FB288F291D66840D0046F2FF /* QPModel.m */,
-				FB60D70A1D7986A6001FD708 /* UIViewController+QYPPCommon1.h */,
-				FB60D70B1D7986A6001FD708 /* UIViewController+QYPPCommon1.m */,
 				FB288F351D66C9600046F2FF /* UIViewController+QYPPCommon.h */,
 				FB288F361D66C9600046F2FF /* UIViewController+QYPPCommon.m */,
 				FB13FE011D6B4F970079AC3E /* QPViewController.h */,
@@ -315,7 +310,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB288F271D6683510046F2FF /* QPDataManager.m in Sources */,
-				FB60D70C1D7986A6001FD708 /* UIViewController+QYPPCommon1.m in Sources */,
 				FB3549951D646C4A00C88A83 /* ViewController.m in Sources */,
 				FB3549921D646C4A00C88A83 /* AppDelegate.m in Sources */,
 				FB13FDF91D69F9120079AC3E /* SecondViewController.m in Sources */,
